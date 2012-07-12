@@ -751,7 +751,7 @@ class JWPlayer(AbstractHTML5Player):
             'height': self.adjusted_height,
             'width': self.adjusted_width,
             'controlbar': 'bottom',
-            'players': [
+            'modes': [
                 # XXX: Currently flash *must* come first for the RTMP/HTTP logic.
                 {'type': 'flash', 'src': self.swf_url()},
                 {'type': 'html5'},
